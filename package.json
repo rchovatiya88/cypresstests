@@ -1,0 +1,22 @@
+{
+  "name": "cypresstests",
+  "version": "1.0.0",
+  "description": "## How to Install - Create a folder `testcypress` - Navigate to the Folder in the terminal and run `npm init` in terminal, this will create a `package.json`  - Now let's Install cypress by running the command `npm install cypress --save` make sure to be in the `testcypress` folder - Next, let's open the cypress in our chrome browser `npm cypress open`",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rchovatiya88/cypresstests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rchovatiya88/cypresstests/issues"
+  },
+  "homepage": "https://github.com/rchovatiya88/cypresstests#readme",
+  "devDependencies": {
+    "cypress": "^2.1.0"
+  }
+}
