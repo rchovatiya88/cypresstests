@@ -1,1 +1,2 @@
 /node_modules
+/cypress/integration/driven_spec.js
