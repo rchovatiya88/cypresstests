@@ -12,4 +12,14 @@
 
 ## Cypress Commands
 - `npx cypress open` to open cypress
-- `cypress run` to run headless browser
+- `npx cypress run` to run headless browser
+
+## Errors
+- Uncaught exceptions
+	in support/ index.js add the following
+	```javascript 
+    Cypress.on('uncaught:exception', (err, runnable) => {
+    // returning false here prevents Cypress from
+    // failing the test
+    return false
+  });
